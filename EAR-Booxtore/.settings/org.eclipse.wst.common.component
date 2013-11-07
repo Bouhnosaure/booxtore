@@ -10,7 +10,12 @@
             <dependent-object/>
             <dependency-type>uses</dependency-type>
         </dependent-module>
+<<<<<<< HEAD
+        <dependent-module archiveName="WEBTEST.war" deploy-path="/" handle="module:/resource/WEBTEST/WEBTEST">
+            <dependent-object/>
+=======
         <dependent-module archiveName="JPA-Booxtore.jar" deploy-path="/lib" handle="module:/resource/JPA-Booxtore/JPA-Booxtore">
+>>>>>>> branch 'master' of https://github.com/Bouhnosaure/booxtore.git
             <dependency-type>uses</dependency-type>
         </dependent-module>
     </wb-module>

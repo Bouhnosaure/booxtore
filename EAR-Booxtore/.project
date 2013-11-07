@@ -5,11 +5,7 @@
 	<projects>
 		<project>EJB-Booxtore</project>
 		<project>WEB-Booxtore</project>
-<<<<<<< HEAD
-		<project>WEBTEST</project>
-=======
 		<project>JPA-Booxtore</project>
->>>>>>> branch 'master' of https://github.com/Bouhnosaure/booxtore.git
 	</projects>
 	<buildSpec>
 		<buildCommand>

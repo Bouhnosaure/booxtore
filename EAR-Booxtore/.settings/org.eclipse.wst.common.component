@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<project-modules id="moduleCoreId" project-version="1.5.0">
     <wb-module deploy-name="EAR-Booxtore">
         <wb-resource deploy-path="/" source-path="/EarContent" tag="defaultRootSource"/>
         <dependent-module archiveName="EJB-Booxtore.jar" deploy-path="/" handle="module:/resource/EJB-Booxtore/EJB-Booxtore">
@@ -9,8 +10,12 @@
             <dependent-object/>
             <dependency-type>uses</dependency-type>
         </dependent-module>
+<<<<<<< HEAD
         <dependent-module archiveName="WEBTEST.war" deploy-path="/" handle="module:/resource/WEBTEST/WEBTEST">
             <dependent-object/>
+=======
+        <dependent-module archiveName="JPA-Booxtore.jar" deploy-path="/lib" handle="module:/resource/JPA-Booxtore/JPA-Booxtore">
+>>>>>>> branch 'master' of https://github.com/Bouhnosaure/booxtore.git
             <dependency-type>uses</dependency-type>
         </dependent-module>
     </wb-module>

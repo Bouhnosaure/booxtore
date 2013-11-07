@@ -9,5 +9,9 @@
             <dependent-object/>
             <dependency-type>uses</dependency-type>
         </dependent-module>
+        <dependent-module archiveName="WEBTEST.war" deploy-path="/" handle="module:/resource/WEBTEST/WEBTEST">
+            <dependent-object/>
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
     </wb-module>
 </project-modules>

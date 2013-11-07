@@ -1,0 +1,53 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+          "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:ui="http://java.sun.com/jsf/facelets">
+<head>
+<title><ui:insert name="title">BooXtore</ui:insert></title>
+<link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+
+<body>
+<div id="wrap">
+	<div id="header">
+		<ui:insert name="header">
+			<ui:include src="header.xhtml"></ui:include>
+		</ui:insert>
+	</div>
+	
+	<ui:debug hotkey="x"
+		rendered="#{initParam['javax.faces.FACELETS_DEVELOPMENT']}" />
+
+
+
+
+	<div class="center_content">
+		<div class="left_content">
+			<div id="content">
+				<ui:insert name="content">
+				</ui:insert>
+			</div>
+			<div class="clear"></div>
+		</div>
+		<!--end of left content-->
+
+		<div id="rightBox">
+			<ui:insert name="rightBox">
+				<ui:include src="rightContent.xhtml"></ui:include>
+			</ui:insert>
+		</div>
+		<!--end of right content-->
+
+
+	</div>
+
+
+	<div id="footer">
+		<ui:insert name="footer">
+			<ui:include src="footer.xhtml"></ui:include>
+		</ui:insert>
+	</div>
+</div>
+</body>
+
+</html>

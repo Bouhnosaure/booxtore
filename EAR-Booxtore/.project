@@ -5,6 +5,7 @@
 	<projects>
 		<project>EJB-Booxtore</project>
 		<project>WEB-Booxtore</project>
+		<project>WEBTEST</project>
 	</projects>
 	<buildSpec>
 		<buildCommand>

@@ -1,0 +1,545 @@
+body{background-color:#E6E6E6; background-image:url(images/fon.gif); 
+	font-family : Tahoma,Verdana,Arial; margin: 0; padding: 0;}
+a{text-decoration: none;}
+img{border: 0;}
+tr, td{margin: 0; padding: 0;}
+input,select{color: #595959;}
+
+
+
+.center{text-align:center;}
+.centerBloc{margin-left:auto; margin-right:auto;}
+
+.italic{font-style: italic;}
+
+.formErreursTitre{color: red; font-family : Verdana, Tahoma ,Arial; font-size: 13px;}
+.formErreursTxt{font-size: 11px; font-style: italic; color: #FF4F00;}
+
+
+.header{width: 100%; height: 110px;	background-image:url(images/fon_top.gif); background-repeat: repeat-x;}
+
+.logo{width: 234px; margin: 0 auto 5px auto;}
+
+.menuTop{background-image:url(images/top.gif); width: 575px; height: 42px; margin-left: 160px;}
+
+.menuTop a {
+	float: left;
+	width: 115px;
+	display: table-cell;
+	text-align: center;
+	padding-top: 13px;
+	color: #FFFFFF;
+	font-weight: bold;
+	font-family : Tahoma,Verdana,Arial;
+	font-size: 12px;
+}
+
+.menu{width: 740px; margin-left: auto; margin-right: auto;}
+
+.client{
+	width: 740px;
+	height: 37px;
+	margin-left: auto;
+	margin-right: auto;
+	background-image:url(images/fon_top022.gif);
+	clear:both;
+}
+
+#loginBox{float:left; height:35px; width:360px; margin-left:181px; }
+
+#loginBox p{line-height:35px; height: 35px; margin:0; text-align:center;}
+
+#cartBox{float:left; width:175px; height: 35px;}
+
+#cart{vertical-align:middle; margin-left: 30px; }
+
+#connecte{color:#545454;}
+
+#idClient{font-weight: bold; padding-left:3px; padding-right:15px;}
+
+#deconnexion{font-style:italic; color:#100FBF; }
+
+#myCart{color:#545454; font-style:italic;}
+
+.corps{
+	width: 742px;
+	height: 575px;
+	margin: -2px auto 0 auto;
+}
+
+.corps_admin{
+	width: 742px;
+	height: 637px;
+	margin: -2px auto 0 auto;
+}
+
+.menuGauche{
+	position: relative;
+	width: 159px;
+	margin-top: 20px;
+	margin-left: -1px;
+	background-image:url(images/fon_left02.gif);	
+}
+
+.menuGauche div{text-align: center;}
+
+#titreMenu{margin: 0; height: 26px;	background-image:url(images/left01.gif); padding: 0 0 0 37px;}
+
+#titreMenu span{height: 24px;line-height: 24px;}
+
+.line01{width :137px;height:3px;}
+
+.fleche{width : 6px;height: 5px; padding-right: 5px;}
+
+.main{
+	margin-left: -2px;
+	height: 584px;
+	width: 579px;
+	background-image:url(images/bg.gif);
+}
+
+.main_admin{
+	margin-left: -2px;
+	height: 645px;
+	width: 579px;
+	background-image:url(images/bg2.gif);
+}
+
+.ligneSeparateur {display: table-cell; text-align: center; vertical-align: middle;}
+.ligneSeparateur * {vertical-align: middle;}
+
+.spacer{clear: both;}
+
+.ligne1{padding: 19px 0 0 13px;}
+
+.autreLigne{padding: 5px 0 0 13px;}
+
+.redLabel{color: #DA0008;}
+
+.blueLabel{color: #3466DE;}
+
+.greenLabel{color: #4AC250;}
+
+.produit1{width: 266px; height: 167px; float: left;	margin: 6px 0 0 15px;
+	background-image:url(images/rect_grand.gif);}
+
+.caracteristiques div{float: left;}
+
+.photo{margin: 13px 5px 0 5px;}
+
+.photo2{margin: 30px 0px 0 15px;}
+
+.description{ margin: 0 15px 0 20px;}
+
+.description2{ margin: 0 15px 0 15px;}
+
+.caracteristiques h1{ color: #1F86DE; font-size: 16px; font-weight: bold; text-align: center;}
+
+.prix{color: #DA0008; font-weight: bold; font-size: 1.2em; text-align:center;
+	margin-top: 10px; margin-bottom: 5px;}
+
+.boutons{margin-left: 125px; padding: 0;}
+
+.produit2{ width: 176px; height: 131px;	float: left; margin: 6px 0 0 15px;
+	background-image:url(images/rect_petit.gif);}
+
+.produit2b{width:176px; height:131px; float:left; margin:6px 0 0 10px;
+	background-image:url(images/rect_petit.gif);}
+
+.hr{width: 340px;height: 5px;}
+
+.hr2{width: 345px;height: 5px;}
+
+.hr3{width: 358px;height: 5px;}
+
+.hr4{width: 409px;height: 5px;}
+
+.hr5{width: 447px;height: 5px;}
+
+.hr6{width: 404px;height: 5px;}
+
+.hr7{width: 250px;height: 5px;}
+
+.news{float: left; width: 280px; margin: 0 4px 0 4px; text-align: justify; font:bold 11px Tahoma, Verdana, Arial;}
+
+#news1{	border-right: solid 1px #979797;}
+
+.n1{margin: 0 10px 0 30px;}
+
+.n2{margin: 0 30px 0 10px;}
+
+.titreNews{color: #ff6600;padding-top: 5px;}
+
+.titreNews img{margin-right: 5px;}
+
+.contenuNews{padding-top: 5px; font-weight:normal;}
+
+.readMore{padding-top: 5px; height:25px;font-weight:normal;}
+
+.readMore a, .readMore a:visited{color: #ff6600;}
+
+.readMore a:hover{color: #ff0000;}
+
+.footer{ width: 740px;	margin: 0 auto 0 auto; padding: 0;}
+
+.footer p {width: 100%;  padding: 0 0 0 70px !important; padding: 0 0 0 135px;  text-align:center; }
+
+.links{background-image:url(images/bot.gif);font-weight: bold; height: 38px; 
+	line-height: 25px;width: 576px; }
+
+.footer a, .footer a:visited{padding-left: 25px; color : #000000;}
+
+.footer a:hover{color : #333333;}
+
+
+
+/* inscription.jsp, editInfos.jsp */
+
+.inscription{border: 0;	font-size: 11px; margin-left: 125px;}
+
+.filedsetTitre{padding: 15px 0 5px 0; margin-left: 75px; color: #0862A8; display: block;
+	font-family : Verdana, Tahoma ,Arial; font-size: 13px; font-weight: bold;}
+
+.radioButtons{border: 0;	font-size: 11px;}
+
+.inscription input, .inscription select{margin-bottom: 3px; margin-top: 1px; font-weight: normal; color: #595959}
+
+.inscription input{	width: 170px;}
+
+.radioButtons input{margin-bottom: -2px; font-weight: normal; color: #595959; width:20px;}
+
+.valider{margin: 20px 0 0 147px;}
+
+#inscriptionForm{float: left;}
+
+#inscriptionErreurs{float: left; width: 250px;}
+
+#inscriptionErreurs h1{padding: 50px 0 5px 80px; color: red; font-family : Verdana, Tahoma ,Arial; font-size: 13px;}
+
+#inscriptionErreurs li{	font-size: 11px; font-style: italic; color: #FF4F00;}
+
+
+
+/* editProfile.jsp */
+
+.profileH1{padding-top: 10px; margin-left: 50px; margin-bottom:0; font: 15px Arial,Tahoma,Verdana ;}
+
+.profileIcon{vertical-align: middle; margin-right: 10px;}
+
+.profileHr{	margin: 1px 0 0 50px; color: #A6A6A6; background-color: #A6A6A6;
+	height: 1px; border: 0;	width: 80%;	margin-bottom: 10px;}
+
+.profileP{color: #545454; margin-left:auto; margin-right:auto; width:75%;}
+
+.profileLink{color: #4A4A4A;}
+
+.profileLink2{float: right;color: #4A4A4A;}
+
+
+
+/* editIdenfitiants.jsp */
+
+#editIdentifiants{float:left;}
+
+#editIdentifiantsErreurs{float:left; width:250px;}
+
+#editIdentifiantsErreurs h1{padding:110px 0 5px 80px; color: red; font-family:Verdana, Tahoma ,Arial; font-size: 13px;}
+
+#editIdentifiantsErreurs li{font-size:11px; font-style:italic; color:#FF4F00;}
+
+.spacerEditIdentifiantsTop{padding-top:10px;}
+
+.spacerEditIdentifiantsMid{margin-top:10px;}
+
+.spacerEditIdentifiantsBottom{margin-bottom:40px;}
+
+#editIdentifiantsResult p{width:70%; margin:0 auto 0 auto;}
+
+
+
+/* admin.jsp */
+#inner{ position:relative; margin-top:10px; margin-bottom: 10px;width:579px; height:500px; overflow:hidden; }
+
+#slider{width:15px; height:500px; position:absolute; top: 0; right:20px;}
+
+#scroll-top{position: absolute; top:80px;}
+
+#scroll-bottom{position: absolute; bottom:80px;}
+
+
+
+/* news.jsp */
+
+#corpsNews{text-align:justify; margin-left:50px; margin-right: 50px;}
+
+#corpsNews h1{color: #ff6600; font:bold 13px Arial,Tahoma,Verdana; margin-top: 15px;}
+
+#corpsNews h2{font:normal 13px Tahoma,Verdana,Arial; margin-top:15px;}
+
+#corpsNews ul{font:normal 11px Tahoma,Verdana,Arial; }	
+
+#corpsNews hr{color: #FFCF00; background-color: #FFCF00;height: 1px; border: 0;	width: 160px;}
+
+#corpsNews a{color:#FF7700;}
+
+#corpsNews a:hover{text-decoration: underline;}
+
+#newsSuivante a, #newsPrecedente a{color:#FF7700; font-weight:bold;}
+
+#newsSuivante a:hover,#newsPrecedente a:hover{color:#FF0000; font-weight:bold;}
+
+#hrHautNews{margin: 15px 0 25px 80px;}
+
+#hrBasNews{margin: 25px auto 5px auto;}
+
+#dateNews{margin-top:20px; font-style:italic;}
+
+.float{float: left; width:50%;}
+
+#newsPrecedente{margin-top:25px;text-align:left;}
+
+#newsSuivante{margin-top:25px;text-align:right;}
+
+#menuNews{margin-top:50px;margin-bottom:50px;float: right;width:210px;}
+
+#menuNews ul{font-size:11px;font-family:Tahoma,Verdana,Arial;color:#FFCF00;padding-left:30px;width:180px;}
+
+#menuNews li{width:165px; text-align:justify;}
+
+#menuNews a, #menuNews a:hover{color:#0000AF;}
+
+.newsHr{margin: 1px 0 10px 13px; color: #FFCF00; background-color: #FFCF00;
+	height: 1px; border: 0;	width: 180px; }
+
+.newsH1{padding-top:10px; margin: 0 0 0 10px;color:#0000AF;font:bold 13px Arial,Tahoma,Verdana;width:170px;}
+
+.newsIcon{padding-right: 10px;vertical-align: middle; }
+
+
+
+/* ajouterNews.jsp */
+
+#ajouterNewsForm{width:576px;}
+
+#ajouterNews h1{color: red; font-family : Verdana, Tahoma ,Arial; font-size: 13px;}
+
+#ajouterNews ul{margin:25px 0 0 75px;}
+
+#ajouterNews li{font-size: 11px; font-style: italic; color: #FF4F00;}
+
+.ajouterNews{border:0; font-size:11px; margin-left:75px; margin-top:40px;}
+
+#ajouterNewsTitre{width: 425px;}
+
+.validerNews{width:150px; margin-left:auto; margin-right:auto;}
+
+
+
+/* portables.jsp */
+
+#portables table{ border: 1px solid #979797; margin: 45px auto 0 auto;
+	font:normal 12px Tahoma,Verdana,Arial; padding: 10px; }
+	
+#portables td{width: 130px; }
+
+.select1{width: 105px;margin:3px;}
+
+.select2{width: 105px;margin:3px;}
+
+.selectSeul{width: 174px;}
+
+.input1{width: 45px; margin-right:10px;}
+
+.input2{width: 45px;}
+
+#portables input[type=checkbox]{vertical-align:middle; }
+
+
+
+/* pannier.jsp */
+
+#pannier table{text-align:center; font:normal 12px Tahoma,Verdana,Arial;}
+#pannier fieldset {border:0; margin-top:50px;}
+.imgPannier { width: 64px; height: 64px;}
+#validerPannier{width:150px; margin: 50px auto 0 auto;}
+
+.col0{width: 25px;}
+.col1a{width: 75px;}
+.col2a{width: 375px;}
+.col3a{width: 65px;}
+.col4a{width: 80px;}
+
+.col1b{width: 375px;}
+.col2b{width: 75px;}
+.col3b{width: 65px;}
+.col4b{width: 80px;}
+
+.caseColor1{background-color:#8FC2FF}
+.caseColor2{background-color:#CFE5FF}
+.caseColor3{background-color:#EFF6FF}
+
+.borderHaut{border-top: 1px solid #8FC2FF;}
+.borderDroit{border-right: 1px solid #8FC2FF;}
+.borderBas{border-bottom: 1px solid #8FC2FF;}
+.borderGauche{border-left: 1px solid #8FC2FF;}
+
+.gras{font-weight:bold;}
+.colorTitre{color:#0057BF;}
+.colorPrix{color:red;}
+.colorModele{color:#269F00;}
+
+.titreCaracteristique{width:80px; text-align:right;font-size:11px;}
+.contenuCaracteristique{padding-left:10px;width:250px;text-align:left;font-style: italic;font-size:11px;}
+
+#pannierVide{text-align:center;margin-top: 150px;}
+
+.erreurs li{font-size: 11px; font-style: italic; color: #FF4F00;}
+
+
+
+/* login.jsp */
+#loginForm fieldset{width:200px;border:1px solid #979797; margin: 100px auto 0 auto;padding:40px;}
+#loginForm span{font-family : Tahoma,Verdana,Arial; font-size: 12px;}
+#loginForm input[type=text], #loginForm input[type=password]{width:150px; margin:5px 0 20px 20px;}
+#loginForm input[type=submit]{width:100px;}
+#loginForm p{position:relative; width:100px; margin:0 auto 0 auto;}
+
+
+
+/* livraison.jsp */
+#livraison p{font-size: 12px;}
+
+.adresseDescr{margin: 20px 50px 0 50px;}
+.adresse{width: 200px; margin: 20px auto 10px auto;text-align:center;}
+
+#slider2{float:left;width:15px; height:250px;margin:50px 0 0 0;}
+#scroll-top2{margin-top:30px;margin-bottom:100px;}
+#autresAdresses{float:left;width:274px;height:250px;text-align:center;margin:50px 0 25px 0;}
+#autresAdressesInner{position:relative;height:180px;overflow:hidden;}
+.adresseSlider{width: 200px; margin: 0 auto 20px auto;text-align:center;}
+#autresAdressesContent{}
+	
+#ajouterAdresseBtn{width:80px;}
+
+#ajouterAdresse{float:left;width:280px;height:250px;margin:50px 0 25px 0;border-left:1px solid #8fc2ff;}
+#ajouterAdresse label{position:absolute;margin:4px 0 0 45px;}
+#ajouterAdresse input[type=text],#ajouterAdresse select{margin:2px 0 2px 120px;}
+.autresDescr{margin-bottom:25px;}
+#livraisonBtn{width:100px;}
+
+.changerAdresse{font-size: 11px;line-height:22px;}
+
+
+
+/* paiement.jsp */
+
+#paiement {margin:20px 50px 20px 50px;}
+.descCommande{margin-left: 25px;}
+#paiement input[type=radio]{margin-left:25px;}
+#paiement h1{color: #269f00; font:bold 13px Arial,Tahoma,Verdana; margin-top: 15px;}
+#recapCommande{width: 200px;margin-left: auto; margin-right: auto;text-align: center;}
+#lineCommande{color: #da0008; background-color: #da0008;
+	height: 1px; border: 0;	width: 180px;}
+#paiement table{margin: 10px auto 15px auto; width: 350px;
+	color: #000000;font-size: 11px;font-family: Tahoma,Verdana,Arial;}
+#paiement tr{width: 250px;}
+#validerPaiement{width:150px; margin: 15px auto 0 auto;}
+.col1{padding-left: 50px;width: 100px;}
+#paiementErrors{margin-left: 50px;}
+#paiementErrors h1{padding:0; margin:0; color: red; font-family : Verdana, Tahoma ,Arial; font-size: 13px;}
+#paiementErrors ul{margin-top:5px;}
+#paiementErrors li{font-size: 11px; font-style: italic; color: #FF4F00;}
+
+
+
+/* finalisation.jsp */
+
+#finalisation{margin:50px 80px 20px 80px;}
+#finalisation p{padding-top:25px; padding-bottom:25px;}
+#finalisation a{color: #268700;font-style:italic;}
+#finalisation a:hover{color:#269f00;font-style:italic;}
+
+
+/* traiterCommandes.jsp */
+
+#traiterCommandes h1{padding:0 0 10px 0; margin:0;  font:italic 12px Tahoma,Verdana, Arial;}
+#traiterCommandes p{color:#545454;}
+#traiterCommandes div{ margin: 15px 50px 25px 50px;}
+#selectionTraitementCommandes form{margin-top:0; margin-bottom:0;}
+.txtSelectionTraitementCommandes{position:absolute;padding-left:90px;}
+#selectionTraitementCommandes select{margin-left:250px;}
+
+#selectionTraitementCommandes hr{margin: 35px auto 35px auto; color: #8fc2ff; background-color: #8fc2ff;
+	height: 1px; border: 0;	width: 350px; }
+
+.txtCommandeATraiter{position:absolute;padding-left:90px;}
+.contenuCommandeATraiter{padding-left:290px; color:#404040;}
+#commandeATraiter input[type=text]{width:70px; text-align:center;color:#404040;}
+#traiterCommandesErreurs h1{padding:0; margin:0; color: red; font-family : Verdana, Tahoma ,Arial; font-size: 13px;}
+#traiterCommandesErreurs li{font-size: 11px; font-style: italic; color: #FF4F00;}
+
+/* recherche.jsp */
+.CartePC{
+	width: 100%;
+	height: 150px;
+	margin-top: 6px;
+	margin-right: auto;
+	margin-bottom: 0pt;
+	margin-left: auto;
+	padding: 5px;
+	color: #000000;
+	font-size: 11px;
+	font-family: Tahoma,Verdana,Arial;
+}
+
+.CartePC #desc2{
+	float: left;
+	color: black;
+	font-size: 11px;
+	margin-top: 0pt;
+	margin-right: 5px;
+	margin-bottom: 0pt;
+	margin-left: 5px;
+	padding:0px;
+}
+
+#desc2 h1{
+	color: #1f86de;
+	font-size: 15px;
+	font-weight: bold;
+	margin-top:0;margin-bottom:20px;
+}
+
+
+.CartePC #pouet{
+	float: left;
+}
+
+.ligne {
+	margin: 10px auto 10px auto; 
+	color: #8fc2ff; 
+	background-color: #8fc2ff;
+	height: 1px; 
+	border: 0;	
+	width: 380px; 
+	float: left;
+}
+
+.ajoutPannierResponse{
+	font-size: 11px;font-weight: normal;color:#269f00;
+}
+
+.acheterBtn{ color:red; font-size:13px;font-weight:bold;pdding-left:15px;}
+.acheterPortableDesc{color: #269f00;}
+.acheterPortableContent{position:absolute; left:155px;}
+.acheterPortablePrix{color: #ff6600;}
+.imgPortable{position:absolute;left:330px; margin-top:27px;}
+#resRecherche{	margin-left: 80px;}
+
+/* voirCommandes.jsp */
+#voirCommandes h1{padding:40px 50px 10px 50px; margin:0;  font:italic 12px Tahoma,Verdana, Arial;}
+#voirCommandes table{width: 360px; margin: 15px auto 15px auto;
+	color:#545454; font:italic 11px Tahoma,Verdana, normal;}
+#voirCommandes td{text-align:center; width:90px;}
+.row1{margin: 5px auto 5px auto; color: #8fc2ff; background-color: #8fc2ff;
+	height: 1px; border: 0;	width: 100%; }

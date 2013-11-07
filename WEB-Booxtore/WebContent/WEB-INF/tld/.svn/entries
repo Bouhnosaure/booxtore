@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2007-10-20T18:56:40.857614Z"
+   url="http://opensvn.csie.org/YazAndToulims/site/WebContent/WEB-INF/tld"
+   last-author="Yaz"
+   kind="dir"
+   uuid="869d27a6-7f24-11dc-861a-f4adabca07d0"
+   repos="http://opensvn.csie.org/YazAndToulims"
+   revision="132"/>
+<entry
+   committed-rev="3"
+   name="c.tld"
+   text-time="2007-12-03T17:58:33.606558Z"
+   committed-date="2007-10-20T18:56:40.857614Z"
+   checksum="f4cf70f74c8e451bdb711c4a44d1eccf"
+   last-author="Yaz"
+   kind="file"
+   prop-time="2007-12-03T17:58:30.478558Z"/>
+<entry
+   committed-rev="3"
+   name="struts-nested.tld"
+   text-time="2007-12-03T17:58:33.650558Z"
+   committed-date="2007-10-20T18:56:40.857614Z"
+   checksum="abedd3829592b8dc774bdd0902c55d40"
+   last-author="Yaz"
+   kind="file"
+   prop-time="2007-12-03T17:58:30.489558Z"/>
+<entry
+   committed-rev="3"
+   name="fmt.tld"
+   text-time="2007-12-03T17:58:33.700558Z"
+   committed-date="2007-10-20T18:56:40.857614Z"
+   checksum="1519a4468896b65c489c83fcb794444b"
+   last-author="Yaz"
+   kind="file"
+   prop-time="2007-12-03T17:58:31.119558Z"/>
+<entry
+   committed-rev="3"
+   name="struts-html.tld"
+   text-time="2007-12-03T17:58:33.737558Z"
+   committed-date="2007-10-20T18:56:40.857614Z"
+   checksum="55c98ca0b3d7f8191e743553972cbc4e"
+   last-author="Yaz"
+   kind="file"
+   prop-time="2007-12-03T17:58:33.546558Z"/>
+<entry
+   committed-rev="3"
+   name="custom.tld"
+   text-time="2007-12-03T17:58:33.749558Z"
+   committed-date="2007-10-20T18:56:40.857614Z"
+   checksum="3bd17d2468a035694afb87b01e01a451"
+   last-author="Yaz"
+   kind="file"
+   prop-time="2007-12-03T17:58:33.561558Z"/>
+</wc-entries>
